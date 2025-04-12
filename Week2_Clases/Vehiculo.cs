@@ -13,9 +13,9 @@ namespace Week2_Clases
         //private string Marca { get; set; }
         private string Marca;
         private string Color;
-        private DateTime Anio;
+        private string Anio;
 
-        public Vehiculo (string modelo, string marca, string color, DateTime anio)
+        public Vehiculo (string modelo, string marca, string color, string anio)
         {
             Modelo = modelo;
             Marca = marca;
@@ -53,12 +53,12 @@ namespace Week2_Clases
             this.Color = color;
         }
 
-        public DateTime getAnio()
+        public string getAnio()
         {
             return Anio;
         }
 
-        public void setAnio(DateTime anio)
+        public void setAnio(string anio)
         {
             this.Anio = anio;
         }
