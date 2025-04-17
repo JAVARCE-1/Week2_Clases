@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace OPP_ABSTRACT_INTERFACES
 {
-    class Auto : Ivehiculo1
+    class Camion : Vehiculo
     {
-        public void cantidadLlantas()
+        public override void tocarClaxon()
         {
-            Console.WriteLine("El auto tiene 4 llantas");
+            Console.WriteLine("El camion toca el claxon TRRRRRR");
         }
-
-        
     }
 }

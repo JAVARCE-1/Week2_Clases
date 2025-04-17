@@ -13,6 +13,9 @@
             var bicilceta = new Bicicleta();
             bicilceta.cantidadLlantas();
 
+            var camion = new Camion();
+            camion.tocarClaxon();
+
         }
     }
 }
