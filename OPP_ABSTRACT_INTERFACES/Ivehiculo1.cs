@@ -8,5 +8,6 @@ namespace OPP_ABSTRACT_INTERFACES
 {
     interface Ivehiculo1
     {
+        void cantidadLlantas();
     }
 }

@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace OPP_ABSTRACT_INTERFACES
 {
-    class Auto
+    class Auto : Ivehiculo1
     {
+        public void cantidadLlantas()
+        {
+            Console.WriteLine("El auto tiene 4 llantas");
+        }
     }
 }

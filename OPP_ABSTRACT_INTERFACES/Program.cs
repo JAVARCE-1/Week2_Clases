@@ -4,7 +4,15 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("------");
+
+            var auto = new Auto();
+            auto.cantidadLlantas();
+
+
+            var bicilceta = new bicicleta();
+             
+
         }
     }
 }
