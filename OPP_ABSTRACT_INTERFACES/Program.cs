@@ -10,8 +10,8 @@
             auto.cantidadLlantas();
 
 
-            var bicilceta = new bicicleta();
-             
+            var bicilceta = new Bicicleta();
+            bicilceta.cantidadLlantas();
 
         }
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OPP_ABSTRACT_INTERFACES
 {
-    class bicicleta : Ivehiculo1
+    class Bicicleta : Ivehiculo1
     {
         public void cantidadLlantas()
         {
